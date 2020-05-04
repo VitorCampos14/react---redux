@@ -7,14 +7,22 @@ import ReactDOM from 'react-dom'
 // import Familia from './componentes/Familia'
 // import Membro from './componentes/Membro'
 // import ComponenteComFuncao from './componentes/ComponenteComFunçao'
-import Pai from './componentes/Pai'
+// import Pai from './componentes/Pai'
+// import Contador from './componentes/Contador'
+import Hook from './componentes/Hook'
 
+
+import ComponenteClase from './componentes/ComponenteClasse'
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <Pai>
+        <Hook numero ={0}> </Hook>
+        {/* <ComponenteClase valor = "Sou um componente de classe!">
+
+        </ComponenteClase> */}
+        {/* <Pai>
             
-        </Pai>
+        </Pai> */}
         {/* <Familia sobrenome ="Pereira">
             <Membro nome ="Andre"/>
             <Membro nome ="Vitor"/>
